@@ -8,6 +8,9 @@
     "navigationBarTitleText": "老邓的神秘小屋",
     "navigationBarTextStyle":"white"
   },
-  "style": "v2",
+  "usingComponents": {
+    "tabbar": "/components/cust-tab-bar/index",
+    "van-icon": "/components/vant-app/icon/index"
+  },
   "sitemapLocation": "sitemap.json"
 }

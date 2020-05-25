@@ -1,0 +1,44 @@
+.tabbar-template {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100rpx;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px #eee solid;
+  z-index: 9999;
+}
+
+.tabbar-template .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+.tabbar-template .item image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 10rpx;
+}
+
+.tabbar-template .item text {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.tabbar-template .active text {
+  color: #333;
+}
+/*# sourceMappingURL=index.wxss.map */

@@ -4,4 +4,23 @@
         <image style="width:100%;" mode="widthFix" src="{{item}}"></image>
     </swiper-item>
   </swiper>
+  <view class="icon-nav">
+    <view class="icon-item">
+      <van-icon name="gift-o" size="26px" />
+      <!-- <text>商品中心</text> -->
+    </view>
+    <view class="icon-item">
+      <van-icon name="apps-o" size="26px" />
+      <!-- <text>产品分类</text> -->
+    </view>
+    <view class="icon-item">
+      <van-icon name="phone-circle-o" size="26px" />
+      <!-- <text>联系我们</text> -->
+    </view>
+    <view class="icon-item">
+      <van-icon name="user-circle-o" size="26px" />
+      <!-- <text>个人中心</text> -->
+    </view>
+  </view>
 </view>
+<tabbar active="0" />

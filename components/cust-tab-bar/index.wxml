@@ -1,0 +1,6 @@
+<view class="tabbar-template">
+    <view class="item {{active==index?'active':''}}" wx:for="{{tabbarList}}" wx:key="index" bindtap="tabbarChange" data-params="{{item}}">
+        <image src="{{active==item.status?item.iconActive:item.icon}}" alt="" />
+        <text>{{item.name}}</text>
+    </view>
+</view>
