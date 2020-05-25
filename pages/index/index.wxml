@@ -29,7 +29,16 @@
       </view>
       <view class="good-con">
         <view class="item">
-          <view class="left" class=""></view>
+          <view class="left">
+            <image src="https://7072-prod-e3wgf-1302240362.tcb.qcloud.la/banner1.jpg?sign=e92dc7ebb88724852e80bf4f51bb5c64&t=1590393990" alt="" mode="widthFix"/>
+          </view>
+          <view class="right">
+            <text class="title">"神秘小屋"带你体验极致的感觉</text>
+            <view class="tips">
+              <text class="time">2020-12-12</text>
+              <text class="visit"><van-icon name="eye-o" />557</text>
+            </view>
+          </view>
         </view>
       </view>
   </view>

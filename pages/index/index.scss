@@ -36,4 +36,33 @@ page{
             }
         }
     }
+    .good-list{
+        width: 100%;
+        padding: 0 50rpx;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin-top: 20rpx;
+        .good-title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 80rpx;
+            width: 100%;
+        }
+        .good-con{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            .item{
+                width: 100%;
+                height: 200rpx;
+                display: flex;
+                
+            }
+            .left{
+                width: 100%
+            }
+        }
+    }
 }

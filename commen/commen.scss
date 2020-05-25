@@ -1,0 +1,15 @@
+.flex-center{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.flex-tree{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
