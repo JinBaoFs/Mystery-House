@@ -34,12 +34,12 @@ page {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 50rpx;
-  border-bottom: 2rpx #eee solid;
+  border-bottom: 2rpx #ddd solid;
 }
 
 .index .icon-nav .icon-item {
-  width: 90rpx;
-  height: 90rpx;
+  width: 80rpx;
+  height: 80rpx;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,8 +56,8 @@ page {
   color: #fff;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border-radius: 50%;
-  background: #4e9cff;
+  border-radius: 10%;
+  background: #F483AD;
 }
 
 .index .icon-nav .icon-item text {

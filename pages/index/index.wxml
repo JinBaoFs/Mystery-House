@@ -7,20 +7,31 @@
   <view class="icon-nav">
     <view class="icon-item">
       <van-icon name="gift-o" size="26px" />
-      <!-- <text>商品中心</text> -->
+      <!-- <text>商品</text> -->
     </view>
     <view class="icon-item">
       <van-icon name="apps-o" size="26px" />
-      <!-- <text>产品分类</text> -->
+      <!-- <text>产品</text> -->
     </view>
     <view class="icon-item">
-      <van-icon name="phone-circle-o" size="26px" />
-      <!-- <text>联系我们</text> -->
+      <van-icon name="description" size="26px" />
+      <!-- <text>联系</text> -->
     </view>
     <view class="icon-item">
-      <van-icon name="user-circle-o" size="26px" />
-      <!-- <text>个人中心</text> -->
+      <van-icon name="user-o" size="26px" />
+      <!-- <text>我的</text> -->
     </view>
+  </view>
+  <view class="good-list">
+      <view class="good-title">
+        <text>热度推荐</text>
+        <text>—— 这里是您最想要的 ——</text>
+      </view>
+      <view class="good-con">
+        <view class="item">
+          <view class="left" class=""></view>
+        </view>
+      </view>
   </view>
 </view>
 <tabbar active="0" />

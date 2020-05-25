@@ -18,18 +18,18 @@ page{
         margin-top: 10rpx;
         box-sizing: border-box;
         padding: 0 50rpx;
-        border-bottom: 2rpx #eee solid;
+        border-bottom: 2rpx #ddd solid;
         .icon-item{
-            width: 90rpx;
-            height: 90rpx;
+            width: 80rpx;
+            height: 80rpx;
             display: flex;
             justify-content: center;
             flex-direction: column;
             align-items: center;
             color:#fff;
             box-sizing:border-box;
-            border-radius: 50%;
-            background: #4e9cff;
+            border-radius: 10%;
+            background: #F483AD;
             text{
                 color: #999;
                 font-size: 24rpx;
