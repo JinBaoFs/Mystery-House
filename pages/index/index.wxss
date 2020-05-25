@@ -16,6 +16,7 @@ page {
   padding-bottom: 100rpx;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  overflow: auto;
 }
 
 .index .icon-nav {
@@ -35,6 +36,8 @@ page {
           box-sizing: border-box;
   padding: 0 50rpx;
   border-bottom: 2rpx #ddd solid;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .index .icon-nav .icon-item {
@@ -67,7 +70,7 @@ page {
 
 .index .good-list {
   width: 100%;
-  padding: 0 50rpx;
+  padding: 0 20rpx;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -91,8 +94,17 @@ page {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 80rpx;
   width: 100%;
+}
+
+.index .good-list .good-title text:nth-child(1) {
+  font-size: 32rpx;
+  color: #333;
+}
+
+.index .good-list .good-title text:nth-child(2) {
+  font-size: 24rpx;
+  color: #999;
 }
 
 .index .good-list .good-con {
@@ -105,17 +117,112 @@ page {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 100%;
+  overflow: hidden;
 }
 
 .index .good-list .good-con .item {
   width: 100%;
-  height: 200rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-bottom: 20rpx;
+  border-bottom: 1px #ccc dashed;
+  margin-top: 20rpx;
+}
+
+.index .good-list .good-con .item .left {
+  width: 35%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.index .good-list .good-con .item .left image {
+  width: 100%;
+  border-radius: 10rpx;
+}
+
+.index .good-list .good-con .item .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-left: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 60%;
+}
+
+.index .good-list .good-con .item .right .title {
+  width: 100%;
+  font-size: 30rpx;
+  color: #666;
+}
+
+.index .good-list .good-con .item .right .tips {
+  color: #999;
+  font-size: 24rpx;
+}
+
+.index .good-list .good-con .item .right .visit {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.index .good-list .good-con .left {
+.index .good-list .good-con .item .right .visit text {
+  margin-left: 10rpx;
+}
+
+.index .good-list .good-bte-con {
   width: 100%;
+  margin-bottom: 20rpx;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.index .good-list .good-bte-con .item {
+  width: 48%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 400rpx;
+  border: 1px #eee solid;
+  box-sizing: border-box;
+  padding: 20rpx;
+  margin-top: 20rpx;
+}
+
+.index .good-list .good-bte-con .top {
+  width: 100%;
+  height: 200rpx;
+  overflow: hidden;
+}
+
+.index .good-list .good-bte-con .top image {
+  min-height: 200rpx;
+  border-radius: 6rpx;
+}
+
+.index .good-list .good-bte-con .bottom .title {
+  font-size: 28rpx;
+  color: #333;
+}
+
+.index .good-list .good-bte-con .bottom .see-detail {
+  font-size: 24rpx;
+  margin-top: 20rpx;
+  color: #999;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.index .good-list .good-bte-con .bottom .see-detail .see-btn {
+  padding: 4rpx 10rpx;
+  background: #F483AD;
+  color: #fff;
+  border-radius: 4rpx;
 }
 /*# sourceMappingURL=index.wxss.map */
