@@ -1,3 +1,7 @@
 <view class="index">
-  这是首页
+  <swiper indicator-dots="true" utoplay="{{autoplay}}" style="min-height:400rpx;" indicator-color="rgba(0,0,0,0.3)" indicator-active-color="#fff">
+    <swiper-item wx:for="{{bannerImgList}}" wx:key="idx">
+        <image style="width:100%;" mode="widthFix" src="{{item}}"></image>
+    </swiper-item>
+  </swiper>
 </view>
