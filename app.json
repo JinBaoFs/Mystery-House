@@ -2,15 +2,27 @@
   "pages":[
     "pages/index/index"
   ],
+  "subpackages": [
+    {
+      "root": "packageA/",
+      "pages": [
+        "my/my",
+        "good_class/goodClass",
+        "contact/contact"
+      ]
+    }
+  ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#190f03",
     "navigationBarTitleText": "老邓的神秘小屋",
     "navigationBarTextStyle":"white"
   },
+  
   "usingComponents": {
     "tabbar": "/components/cust-tab-bar/index",
-    "van-icon": "/components/vant-app/icon/index"
+    "van-icon": "/components/vant-app/icon/index",
+    "van-search": "/components/vant-app/search/index"
   },
   "sitemapLocation": "sitemap.json"
 }

@@ -6,19 +6,34 @@ Component({
     data:{
         tabbarList:[
             {
-                name:'交易市场',
-                icon:'../../static/images/icon_shichang_default.svg',
-                iconActive:'../../static/images/icon_shichang_select.svg',
+                name:'首页',
+                icon:'../../static/images/icon_index_default.png',
+                iconActive:'../../static/images/icon_index_hover.png',
                 path:'/pages/index/index',
                 status:0
             },
             {
-                name:'我的',
-                icon:'../../static/images/icon_wode_default.svg',
-                iconActive:'../../static/images/icon_wode_select.svg',
-                path:'/pages/my/my',
+                name:'分类',
+                icon:'../../static/images/icon_fenlei_default.png',
+                iconActive:'../../static/images/icon_fenlei_hover.svg',
+                path:'/packageA/good_class/goodClass',
                 status:1
-            }
+            },
+            {
+                name:'关于',
+                icon:'../../static/images/icon_lianxi_default.png',
+                iconActive:'../../static/images/icon_lianxi_hover.png',
+                path:'/packageA/contact/contact',
+                status:2
+            },
+            {
+                name:'我的',
+                icon:'../../static/images/icon_my_default.png',
+                iconActive:'../../static/images/icon_my_hover.png',
+                path:'/packageA/my/my',
+                status:3
+            },
+            
         ]
     },
     methods:{
@@ -28,6 +43,7 @@ Component({
             if(query.status == this.data.active){
                 return
             }
+            console.log(query)
             wx.redirectTo({
                 url:query.path
             })
