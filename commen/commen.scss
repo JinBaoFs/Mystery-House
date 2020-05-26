@@ -1,4 +1,4 @@
-.flex-center{
+.flex-ctr{
     display: flex;
     justify-content:center;
     align-items: center;
@@ -12,4 +12,31 @@
 .flex-wrap{
     display: flex;
     flex-wrap: wrap;
+}
+.flex-btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-tree-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-ofw{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.text-more-ofw{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+view{
+    box-sizing: border-box;
 }
