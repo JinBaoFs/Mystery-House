@@ -1,0 +1,16 @@
+<view class="list-container">
+    <view class="search">
+        <van-search
+            value="{{ value }}"
+            placeholder="请输入搜索关键词"
+            use-action-slot
+            bind:change="onChange"
+            bind:search="onSearch"
+            >
+            <view slot="action" bind:tap="toGoodList">搜索</view>
+        </van-search>
+    </view>
+    <view class="sort">
+        <view class="item"></view>
+    </view>
+</view>

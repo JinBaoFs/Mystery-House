@@ -15,7 +15,7 @@ Component({
             {
                 name:'分类',
                 icon:'../../static/images/icon_fenlei_default.png',
-                iconActive:'../../static/images/icon_fenlei_hover.svg',
+                iconActive:'../../static/images/icon_fenlei_hover.png',
                 path:'/packageA/good_class/goodClass',
                 status:1
             },
@@ -48,6 +48,7 @@ Component({
                 url:query.path
             })
         },
+        
         
 
     }

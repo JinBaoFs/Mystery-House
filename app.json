@@ -8,7 +8,8 @@
       "pages": [
         "my/my",
         "good_class/goodClass",
-        "contact/contact"
+        "contact/contact",
+        "good_list/list"
       ]
     }
   ],

@@ -2,7 +2,6 @@
     <view class="search">
         <van-search
             value="{{ value }}"
-            label="地址"
             placeholder="请输入搜索关键词"
             use-action-slot
             bind:change="onChange"
@@ -11,7 +10,20 @@
             <view slot="action" bind:tap="toGoodList">搜索</view>
         </van-search>
     </view>
-    <view class="class-con">
-
+    <view class="class-con flex">
+        <view class="left flex-tree">
+            <view class="item flex-ctr {{activeName==idx?'active':''}}" wx:for="{{titleList}}" wx:key="idx" wx:for-index="idx" bindtap="handleChangeTab" data-idx="{{idx}}" data-item="{{item}}">{{item.text}}</view>
+        </view>
+        <view class="right">
+            <view class="goods flex-wrap">
+                <view class="item flex-tree-ctr" wx:for="{{titleList}}" wx:key="idx" wx:for-index="idx" bindtap="handleChangeTab" data-idx="{{idx}}" data-item="{{item}}">
+                    <view class="img flex-ctr">
+                        <image src="https://7072-prod-e3wgf-1302240362.tcb.qcloud.la/banner3.jpg?sign=1473dd5c8fb5740221094b321db4b908&t=1590394250" alt="" mode="widthFix" />
+                    </view>
+                    <text>巧克力</text>
+                </view>
+            </view>
+        </view>
     </view>
 </view>
+<tabbar active="1" />

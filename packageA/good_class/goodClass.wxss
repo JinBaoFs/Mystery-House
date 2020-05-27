@@ -1,1 +1,95 @@
-/* No CSS *//*# sourceMappingURL=goodClass.wxss.map */
+page {
+  width: 100%;
+  height: 100%;
+}
+
+.class-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding-bottom: 100rpx;
+}
+
+.class-container .search {
+  height: 108rpx;
+}
+
+.class-container .class-con {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.class-container .class-con .left {
+  width: 25%;
+  height: 100%;
+  background: #fafafa;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.class-container .class-con .left .item {
+  width: 100%;
+  height: 80rpx;
+  font-size: 28rpx;
+  border-left: 4rpx #fafafa solid;
+  color: #444;
+}
+
+.class-container .class-con .left .active {
+  border-left: 4rpx #F483AD solid;
+  color: #F483AD;
+  background: #fff;
+}
+
+.class-container .class-con .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 20rpx;
+}
+
+.class-container .class-con .right image {
+  width: 120rpx;
+  min-height: 120rpx;
+  border-radius: 6rpx;
+}
+
+.class-container .class-con .right .img {
+  width: 120rpx;
+  height: 120rpx;
+  overflow: hidden;
+}
+
+.class-container .class-con .right .item {
+  width: 33.33%;
+  margin-top: 20rpx;
+}
+
+.class-container .class-con .right .item text {
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 4rpx;
+}
+/*# sourceMappingURL=goodClass.wxss.map */
