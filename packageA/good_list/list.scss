@@ -30,4 +30,13 @@ page{
             width: 20%;
         }
     }
+    .good-list{
+        .item{
+            width: 50%;
+            padding: 10rpx 20rpx;
+            .top{
+                width: 100%;
+            }
+        }
+    }
 }

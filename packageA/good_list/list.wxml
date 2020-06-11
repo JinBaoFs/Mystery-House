@@ -19,9 +19,11 @@
             <image wx:else mode="widthFix" src="../../static/images/icon_fenlei_hover.png" alt="" />
         </view>
     </view>
-    <view class="good-list">
+    <view class="good-list flex-warp">
         <view class="item">
-            <view class="top"></view>
+            <view class="top flex-ctr">
+                <image src="{{imgUrl}}" mode="widthFix" />
+            </view>
             <view class="bottom"></view>
         </view>
     </view>

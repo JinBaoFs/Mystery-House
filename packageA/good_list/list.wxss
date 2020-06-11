@@ -43,4 +43,13 @@ page {
 .list-container .sort .menu {
   width: 20%;
 }
+
+.list-container .good-list .item {
+  width: 50%;
+  padding: 10rpx 20rpx;
+}
+
+.list-container .good-list .item .top {
+  width: 100%;
+}
 /*# sourceMappingURL=list.wxss.map */
