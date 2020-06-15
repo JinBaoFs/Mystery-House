@@ -22,7 +22,25 @@
     <view class="good-list flex-warp">
         <view class="item">
             <view class="top flex-ctr">
-                <image src="{{imgUrl}}" mode="widthFix" />
+                <image src="{{imgUrl}}" mode="heightFix" />
+            </view>
+            <view class="bottom flex-tree">
+                <view class="title text-more-ofw">WJ 16看尽天下何人可似他无忧,乱军勾</view>
+                <view class="see flex-btn">
+                    <text>编号:H580</text>
+                    <view class="icon-bg"><van-icon name="eye-o" /></view>
+                </view>
+            </view>
+        </view>
+        <view class="item">
+            <view class="top flex-ctr">
+                <image src="{{imgUrl}}" mode="heightFix" />
+            </view>
+            <view class="bottom"></view>
+        </view>
+        <view class="item">
+            <view class="top flex-ctr">
+                <image src="{{imgUrl}}" mode="heightFix" />
             </view>
             <view class="bottom"></view>
         </view>
