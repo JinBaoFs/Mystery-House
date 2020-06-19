@@ -9,7 +9,8 @@
         "my/my",
         "good_class/goodClass",
         "contact/contact",
-        "good_list/list"
+        "good_list/list",
+        "good_detail/detail"
       ]
     }
   ],

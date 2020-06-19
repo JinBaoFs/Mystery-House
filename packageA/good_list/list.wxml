@@ -11,16 +11,16 @@
         </van-search>
     </view>
     <view class="sort">
-        <view class="item flex-ctr" wx:for="{{sortList}}" wx:key="idx">
+        <view class="item flex-ctr {{activeNumber==idx?'active':''}}" wx:for="{{sortList}}" bindtap="handleChangeTab" wx:for-index="idx" wx:key="idx" data-idx="{{idx}}" data-item="{{item}}">
             {{item.text}}
         </view>
-        <view class="menu flex-ctr">
+        <!-- <view class="menu flex-ctr">
             <image wx:if="isMenu" mode="widthFix" src="../../static/images/icon_fenlei_hover.png" alt="" />
             <image wx:else mode="widthFix" src="../../static/images/icon_fenlei_hover.png" alt="" />
-        </view>
+        </view> -->
     </view>
     <view class="good-list flex-warp">
-        <view class="item">
+        <view class="item" wx:for="{{dataList}}" wx:key="idx">
             <view class="top flex-ctr">
                 <image src="{{imgUrl}}" mode="heightFix" />
             </view>
@@ -32,17 +32,7 @@
                 </view>
             </view>
         </view>
-        <view class="item">
-            <view class="top flex-ctr">
-                <image src="{{imgUrl}}" mode="heightFix" />
-            </view>
-            <view class="bottom"></view>
-        </view>
-        <view class="item">
-            <view class="top flex-ctr">
-                <image src="{{imgUrl}}" mode="heightFix" />
-            </view>
-            <view class="bottom"></view>
-        </view>
+        
+      
     </view>
 </view>
