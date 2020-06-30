@@ -7,7 +7,7 @@
             bind:change="onChange"
             bind:search="onSearch"
             >
-            <view slot="action" bind:tap="toGoodList">搜索</view>
+            <view slot="action" bindtap="toGoodList">搜索</view>
         </van-search>
     </view>
     <view class="sort">
@@ -20,7 +20,7 @@
         </view> -->
     </view>
     <view class="good-list flex-warp">
-        <view class="item" wx:for="{{dataList}}" wx:key="idx">
+        <view class="item" wx:for="{{dataList}}" wx:key="idx" bindtap="_toDetail">
             <view class="top flex-ctr">
                 <image src="{{imgUrl}}" mode="heightFix" />
             </view>

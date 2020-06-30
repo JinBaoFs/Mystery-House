@@ -19,6 +19,13 @@ Page({
         this.setData({
             activeNumber:idx
         })
+    },
+    _toDetail(e){
+        let _data = this.data
+        let {idx,item} = e.currentTarget.dataset
+        wx.navigateTo({
+            url:'/packageA/good_detail/detail'
+        })
     }
 })
 
