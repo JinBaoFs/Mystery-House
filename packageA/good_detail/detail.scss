@@ -1,0 +1,60 @@
+.detail{
+    display: flex;
+    flex-direction: column;
+    .img-slide{
+        image{
+            height: 100%;
+            position: absolute;
+            left: 50%;top:50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+    .bottom{
+        padding: 20rpx 20rpx;
+        .title{
+            display: flex;
+            justify-content: space-between;
+            font-size: 28rpx;
+            color: #333;
+            min-height: 50rpx;
+            align-items: center;
+            .left{
+                width: 80%;
+            }
+            .right{
+                display: flex;
+                align-items: center;
+            }
+            .icon{
+                margin-right: 10rpx;
+            }
+        }
+        .money{
+            display: flex;
+            justify-content: space-between;
+            font-size: 28rpx;
+            height: 60rpx;
+            align-items: center;
+            border-bottom: 1px #eee solid;
+            .left{
+                font-size: 36rpx;
+                color: #F483AD;
+            }
+            .right{
+                display: flex;
+                align-items: center;
+                color: #F483AD;
+            }
+            .icon{
+                margin-right: 10rpx;
+            }
+        }
+        .post-age{
+            display: flex;
+            display: flex;
+            justify-content: space-between;
+            font-size: 28rpx;
+            height: 60rpx;
+        }
+    }
+}

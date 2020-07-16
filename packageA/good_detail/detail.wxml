@@ -1,0 +1,27 @@
+<view class="detail">
+    <view class="img-slide">
+        <swiper indicator-dots="true" utoplay="{{autoplay}}" style="min-height:600rpx;" indicator-color="rgba(0,0,0,0.3)" indicator-active-color="#fff">
+            <swiper-item wx:for="{{imgList}}" wx:key="idx">
+                <image style="width:100%;" mode="heightFix" src="{{item}}"></image>
+            </swiper-item>
+        </swiper>
+    </view>
+    <view class="bottom">
+        <view class="title">
+            <view class="left">老邓的神秘商店 带您体验不一样的购购之旅</view>
+            <view class="right">
+                <van-icon name="star-o" custom-class="icon" />收藏
+            </view>
+        </view>
+        <view class="money">
+            <view class="left">¥60.00</view>
+            <view class="right">
+                <van-icon name="gem-o" custom-class="icon" />精品好物
+            </view>
+        </view>
+        <view class="post-age">
+            <view class="left"></view>
+            <view class="right"></view>
+        </view>
+    </view>
+</view>

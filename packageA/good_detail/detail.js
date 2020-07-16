@@ -2,4 +2,10 @@ Page({
     onLoad(option){
         console.log(option,'options')
     },
+    data:{
+        autoplay:true,
+        imgList:['https://7072-prod-e3wgf-1302240362.tcb.qcloud.la/banner1.jpg?sign=e92dc7ebb88724852e80bf4f51bb5c64&t=1590393990',
+        'https://7072-prod-e3wgf-1302240362.tcb.qcloud.la/banner2.jpg?sign=e06a3abc43bc983552578ace6cef6675&t=1590394100',
+        'https://7072-prod-e3wgf-1302240362.tcb.qcloud.la/banner3.jpg?sign=1473dd5c8fb5740221094b321db4b908&t=1590394250']
+    }
 })
